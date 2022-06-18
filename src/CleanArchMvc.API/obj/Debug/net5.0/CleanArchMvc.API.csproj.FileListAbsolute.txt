@@ -90,6 +90,7 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\AutoMapper.Exten
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Humanizer.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\MediatR.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -109,7 +110,6 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Identi
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -1089,6 +1089,7 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\AutoMapper.Ext
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Humanizer.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -1114,7 +1115,10 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.Iden
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.WebUI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
