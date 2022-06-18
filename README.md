@@ -4,4 +4,6 @@ Projeto exemplo clean architecture e alguns conceitos de CQRS com Commands, Quer
 
 Linguagem Asp Net Core Versão 5 com C#
 
+Desenho da Arquitetura do sistema
+
 https://github.com/porffiriocosta/CleanArchitectureMVC/blob/main/documents/CleanArchitecture.png
