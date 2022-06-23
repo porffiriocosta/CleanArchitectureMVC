@@ -26,6 +26,10 @@ namespace CleanArchMvc.API.Controllers
             _configuration = configuration;
         }
 
+        /// <summary>
+        /// Cria um novo Usuario.
+        /// </summary>
+        /// <returns></returns>
         [HttpPost("CreateUser")]
         //[ApiExplorerSettings(IgnoreApi = true)]
         [AllowAnonymous]
@@ -45,6 +49,10 @@ namespace CleanArchMvc.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Faz login do Usuario e gera o token para autenticação.
+        /// </summary>
+        /// <returns></returns>
         [AllowAnonymous]
         [HttpPost("LoginUser")]
         public async Task<ActionResult<UserToken>> Login([FromBody] LoginModel userInfo)

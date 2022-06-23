@@ -1,0 +1,6 @@
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.AssemblyReference.cache
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\Debug\net5.0\CleanArchMvc.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\Debug\net5.0\CleanArchMvc.Infra.IoC.AssemblyInfoInputs.cache
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\Debug\net5.0\CleanArchMvc.Infra.IoC.AssemblyInfo.cs
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\Debug\net5.0\CleanArchMvc.Infra.IoC.csproj.CoreCompileInputs.cache
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.Infra.IoC\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.xml

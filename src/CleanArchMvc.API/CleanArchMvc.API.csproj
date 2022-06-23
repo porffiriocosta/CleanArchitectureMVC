@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>bin\Debug\net5.0\CleanArchMvc.Api.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

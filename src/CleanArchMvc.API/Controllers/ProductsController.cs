@@ -18,6 +18,10 @@ namespace CleanArchMvc.API.Controllers
             _productService = productService;
         }
 
+        /// <summary>
+        /// Busca todos os Produtos.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDTO>>> Get()
         {
@@ -29,6 +33,11 @@ namespace CleanArchMvc.API.Controllers
             return Ok(produtos);
         }
 
+        /// <summary>
+        /// Busca Produto por ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}", Name = "GetProduct")]
         public async Task<ActionResult<ProductDTO>> Get(int id)
         {
@@ -40,6 +49,10 @@ namespace CleanArchMvc.API.Controllers
             return Ok(produto);
         }
 
+        /// <summary>
+        /// Inclui um novo Produto.
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] ProductDTO produtoDto)
         {
@@ -52,6 +65,10 @@ namespace CleanArchMvc.API.Controllers
                 new { id = produtoDto.Id }, produtoDto);
         }
 
+        /// <summary>
+        /// Atualiza um Produto por ID.
+        /// </summary>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] ProductDTO produtoDto)
         {
@@ -68,6 +85,11 @@ namespace CleanArchMvc.API.Controllers
             return Ok(produtoDto);
         }
 
+        /// <summary>
+        /// Exclui um Produto por ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<ProductDTO>> Delete(int id)
         {

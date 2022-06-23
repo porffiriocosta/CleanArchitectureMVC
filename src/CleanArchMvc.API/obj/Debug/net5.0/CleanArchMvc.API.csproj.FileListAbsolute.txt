@@ -103,6 +103,7 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Entity
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.Identity.Client.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
@@ -135,6 +136,7 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Dom
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Infra.Data.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.dll
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.pdb
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Infra.IoC.xml
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Application.pdb
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Domain.pdb
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Infra.Data.pdb
@@ -154,3 +156,4 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\refint\CleanArch
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.pdb
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.genruntimeconfig.cache
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\ref\CleanArchMvc.API.dll
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Api.xml

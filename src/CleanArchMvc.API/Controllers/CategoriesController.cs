@@ -18,6 +18,10 @@ namespace CleanArchMvc.API.Controllers
             _categoryService = categoryService;
         }
 
+        /// <summary>
+        /// Busca todas as Categorias.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
@@ -29,6 +33,11 @@ namespace CleanArchMvc.API.Controllers
             return Ok(categories);
         }
 
+        /// <summary>
+        /// Busca Categoria por ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id:int}", Name = "GetCategory")]
         public async Task<ActionResult<CategoryDTO>> Get(int id)
         {
@@ -40,6 +49,10 @@ namespace CleanArchMvc.API.Controllers
             return Ok(category);
         }
 
+        /// <summary>
+        /// Inclui uma nova Categoria.
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] CategoryDTO categoryDto)
         {
@@ -52,6 +65,10 @@ namespace CleanArchMvc.API.Controllers
                 categoryDto);
         }
 
+        /// <summary>
+        /// Atualiza uma Categoria por ID.
+        /// </summary>
+        /// <returns></returns>
         [HttpPut]
         public async Task<ActionResult> Put(int id,[FromBody] CategoryDTO categoryDto)
         {
@@ -64,8 +81,13 @@ namespace CleanArchMvc.API.Controllers
             await _categoryService.Update(categoryDto);
 
             return Ok(categoryDto);
-        }          
-        
+        }
+
+        /// <summary>
+        /// Exclui uma Categoria por ID.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<CategoryDTO>> Delete(int id)
         {

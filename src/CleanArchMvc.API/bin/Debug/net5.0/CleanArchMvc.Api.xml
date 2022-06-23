@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CleanArchMvc.API</name>
+    </assembly>
+    <members>
+        <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Get">
+            <summary>
+            Busca todas as Categorias.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Get(System.Int32)">
+            <summary>
+            Busca Categoria por ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Post(CleanArchMvc.Application.DTOs.CategoryDTO)">
+            <summary>
+            Inclui uma nova Categoria.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Put(System.Int32,CleanArchMvc.Application.DTOs.CategoryDTO)">
+            <summary>
+            Atualiza uma Categoria por ID.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Delete(System.Int32)">
+            <summary>
+            Exclui uma Categoria por ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.ProductsController.Get">
+            <summary>
+            Busca todos os Produtos.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.ProductsController.Get(System.Int32)">
+            <summary>
+            Busca Produto por ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.ProductsController.Post(CleanArchMvc.Application.DTOs.ProductDTO)">
+            <summary>
+            Inclui um novo Produto.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.ProductsController.Put(System.Int32,CleanArchMvc.Application.DTOs.ProductDTO)">
+            <summary>
+            Atualiza um Produto por ID.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.ProductsController.Delete(System.Int32)">
+            <summary>
+            Exclui um Produto por ID.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.TokenController.CreateUser(CleanArchMvc.API.Models.LoginModel)">
+            <summary>
+            Cria um novo Usuario.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CleanArchMvc.API.Controllers.TokenController.Login(CleanArchMvc.API.Models.LoginModel)">
+            <summary>
+            Faz login do Usuario e gera o token para autenticação.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
