@@ -80,6 +80,7 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\appsettings.Deve
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\appsettings.json
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.API.StaticWebAssets.xml
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.API.exe
+D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Api.xml
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.API.deps.json
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.API.runtimeconfig.json
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.API.runtimeconfig.dev.json
@@ -156,4 +157,3 @@ D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\refint\CleanArch
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.pdb
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\CleanArchMvc.API.genruntimeconfig.cache
 D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\obj\Debug\net5.0\ref\CleanArchMvc.API.dll
-D:\_Projetos\CleanArchMvc\src\CleanArchMvc.API\bin\Debug\net5.0\CleanArchMvc.Api.xml

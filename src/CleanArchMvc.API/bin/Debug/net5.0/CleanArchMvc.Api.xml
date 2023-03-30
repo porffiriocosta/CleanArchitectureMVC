@@ -21,6 +21,19 @@
             <summary>
             Inclui uma nova Categoria.
             </summary>
+            <summary>
+            Post Operation
+            </summary>
+            <remarks>
+            Sample value of message
+            
+                POST /Todo
+                {
+                   "variable1": "Hi",
+                   "variable2": "Sukhpinder"
+                }
+                
+            </remarks>
             <returns></returns>
         </member>
         <member name="M:CleanArchMvc.API.Controllers.CategoriesController.Put(System.Int32,CleanArchMvc.Application.DTOs.CategoryDTO)">
@@ -72,7 +85,9 @@
             <summary>
             Cria um novo Usuario.
             </summary>
-            <returns></returns>
+            <param name="userInfo"></param>
+            <returns>Retorna usuario criado</returns>
+            <response code="201">Retorna usuario criado</response>
         </member>
         <member name="M:CleanArchMvc.API.Controllers.TokenController.Login(CleanArchMvc.API.Models.LoginModel)">
             <summary>

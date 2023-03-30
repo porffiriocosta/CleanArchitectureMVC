@@ -29,9 +29,10 @@ namespace CleanArchMvc.API.Controllers
         /// <summary>
         /// Cria um novo Usuario.
         /// </summary>
-        /// <returns></returns>
+        /// <param name="userInfo"></param>
+        /// <returns>Retorna usuario criado</returns>
+        /// <response code="201">Retorna usuario criado</response>
         [HttpPost("CreateUser")]
-        //[ApiExplorerSettings(IgnoreApi = true)]
         [AllowAnonymous]
         [Authorize]
         public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
@@ -40,7 +41,7 @@ namespace CleanArchMvc.API.Controllers
 
             if (result)
             {
-                return Ok($"User {userInfo.Email} was created successfully");
+                return CreatedAtAction(nameof(CreateUser), routeValues: new { }, null);
             }
             else
             {
@@ -105,9 +106,25 @@ namespace CleanArchMvc.API.Controllers
                 signingCredentials: credentials
                 );
 
+            var expirationRefresh = DateTime.UtcNow.AddMinutes(30);
+            //gerar o Refresh token
+            JwtSecurityToken refreshToken = new JwtSecurityToken(
+                //emissor
+                issuer: _configuration["Jwt:Issuer"],
+                //audiencia
+                audience: _configuration["Jwt:Audience"],
+                //claims
+                claims: claims,
+                //data de expiracao
+                expires: expirationRefresh,
+                //assinatura digital
+                signingCredentials: credentials
+                );
+
             return new UserToken()
             {
                 Token = new JwtSecurityTokenHandler().WriteToken(token),
+                RefreshToken = new JwtSecurityTokenHandler().WriteToken(refreshToken),
                 Expiration = expiration
             };
         }

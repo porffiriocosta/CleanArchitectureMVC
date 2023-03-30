@@ -52,6 +52,19 @@ namespace CleanArchMvc.API.Controllers
         /// <summary>
         /// Inclui uma nova Categoria.
         /// </summary>
+        /// <summary>
+        /// Post Operation
+        /// </summary>
+        /// <remarks>
+        /// Sample value of message
+        /// 
+        ///     POST /Todo
+        ///     {
+        ///        "variable1": "Hi",
+        ///        "variable2": "Sukhpinder"
+        ///     }
+        ///     
+        /// </remarks>
         /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] CategoryDTO categoryDto)
